@@ -1,0 +1,14 @@
+               Use Mysql RDBMS and SQL
+     There is only one table
+      signup table name: quizregister
+      
+      create table quizregister(
+      id int auto-incremented not null,
+      name varchar(45) not null,
+      mobilenumber varchar(45)not null,
+      email varchar(45) not null,
+      password varchar(45) not null,
+      primarykey(id)
+      );
+
+               

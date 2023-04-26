@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Quiz Competition Project</title>
+<style type="text/css">
+*{margin:0; padding:0; box-sizing:border-box;}
+/* navbar css */
+header{background:rgb(0, 0, 0);position: fixed; width: 100%;}
+.container{display: flex;justify-content:space-around;align-items:center; height: 9vh; width: 100%; }
+ul{display: flex;justify-content: center;align-items: center;gap:100px;}
+li{list-style: none; font-size: 18px; letter-spacing: 2px;}li,a{text-decoration: none;color: white;}
+a:hover{
+  background-color: gray;
+  padding: 6px 13px;
+  border-radius: 10px;
+  color: white;
+}
+/*section landing page css*/
+.container1{background:wheat;height: 90vh;width: 100%;display: flex;justify-content: space-evenly;align-items: center;}
+.left {width: 15%;}
+.right {width: 15%;}
+.middle {width: 70%;display: flex;flex-direction: column;justify-content: center;align-items: center;gap:40px;}
+.list{display: flex; flex-direction: column;justify-content: center;align-items: center; gap:15px; letter-spacing:2px; text-shadow: 1px 1px 1px black;}
+/* section about us page css */ 
+.aboutus{padding: 10px 150px;}
+.aboutusContainer{height:65vh; display: flex;justify-content: space-evenly;align-items: center;}
+.subabout{margin:0 10px;padding-bottom:30px; height:50vh;width:30%; display: flex;flex-direction: column;align-items: center;justify-content: center;gap:12px; background: gray;border-top-left-radius:15px;border-top-right-radius:15px;border-bottom-left-radius:15px;border-bottom-right-radius:15px;}
+/* contact us css*/
+.contactus{padding: 0 150px;}
+.contactusContainer{height:80vh;display: flex;justify-content: center;align-items: center;padding: 40px 0;}
+.subcontact{width: 50%;}
+.form{background: wheat; padding: 10px;border-top-left-radius:15px;border-top-right-radius:15px;border-bottom-left-radius:15px;border-bottom-right-radius:15px;}
+.form-group{  padding: 5px 0;}
+.input-group{ padding: 10px  0;}
+.input-group input,textarea{width: 100%; padding: 10px 0;}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo">
+<p style="font-size:27px;font-weight:800; color: white;">Quiz Hub</p>
+</div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="login.jsp">Login</a></li>
+<li><a href="signup.jsp">SignUp</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</header>
+<section>
+<div class="container1">
+<div class="left"></div>
+<div class="middle">
+<h1 style="color:rgb(0,0,85);text-shadow: 1px 1px 1px black;font-size:30px;text-transform:uppercase;letter-spacing:2px;word-spacing:2px;">Quiz Competition Hub of Programming Languages!</h1>
+<h3 style="color:rgb(0,0,85);text-shadow: 1px 1px 1px black; word-spacing:3px;letter-spacing:3px;">We are peforming quiz competition of following languages</h3>
+<div class="list">
+<span>JAVA</span>
+<span>C</span>
+<span>C++</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>Java Script</span>
+</div>
+<p style="text-align: center; text-shadow: 1px 1px 1px black; word-spacing: 3px; letter-spacing: 2px; text-transform: capitalize;">There are many Students who participated here in quiz competition , and get a special rank . You also participate in quiz competition and beat those all student by your own rank.if Your mark will be 100% you will got ELite Gold , and if mark is 90-100 then you will get Elite Silver and if your mark is between 60-90 then you will get Only Elite and for remain mark you will be declared as failed!<br> So want to attempt this quiz competition then go and login and sign on my page !</p>
+</div>
+<div class="right"></div>
+</div>
+</section>
+<section class="aboutus">
+<h1>About Us</h1>
+<div class="aboutusContainer">
+ <div class="subabout">
+ <img alt="here will be image" src="image/img1.jpg" style="height: 255px; width: 367px; border-top-left-radius:15px;border-top-right-radius:15px; ">
+ <h2>Heading</h2>
+ <p style="text-align: center;">We provide Java,C ,C++ ,HTML,CSS and Java Script quiz Competition . Please visit out website for quiz . and Test Your knowledge!</p>
+ </div>
+ <div class="subabout">
+ <img alt="here will be image" src="image/img1.jpg" style="height: 255px; width: 367px;border-top-left-radius:15px;border-top-right-radius:15px;">
+ <h2>Heading</h2>
+ <p style="text-align: center;">We provide Java,C ,C++ ,HTML,CSS and Java Script quiz Competition . Please visit out website for quiz . and Test Your knowledge!</p>
+ </div>
+ <div class="subabout">
+ <img alt="here will be image" src="image/img1.jpg" style="height: 255px; width: 367px;border-top-left-radius:15px;border-top-right-radius:15px;">
+ <h2>Heading</h2>
+ <p style="text-align: center;">We provide Java,C ,C++ ,HTML,CSS and Java Script quiz Competition . Please visit out website for quiz . and Test Your knowledge!</p>
+ </div>
+</div>
+</section>
+<section class="contactus">
+<h1>Contact Us</h1>
+<div class="contactusContainer">
+<div class="subcontact">
+                      <img alt="here will be image" src="image/img1.jpg" style="height: 450px; width: 550px; border: 2px solid black;border-top-left-radius:15px;border-top-right-radius:15px;border-bottom-left-radius:15px;border-bottom-right-radius:15px;">
+</div>
+<div class="subcontact form">
+                      <div class="headContact">
+                      <h1>Contact Page</h1>
+                      </div>
+                      <form action="" class="form">
+                      <div class="form-group">
+                      <label>Write Your Name </label>
+                      <div class="input-group">
+                      <input type="text">
+                      </div>
+                      </div>
+                      <div class="form-group">
+                      <label>Write Your Mobile Number</label>
+                      <div class="input-group">
+                      <input type="text">
+                      </div>
+                      </div>
+                     <div class="form-group">
+                      <label>Leave Your Comment Here!</label>
+                      <div class="input-group">
+                     <textarea rows="5" cols="20"></textarea>
+                      </div>
+                      </div>
+                      <div class="form-group">
+                      <div class="input-group">
+                      <input type="submit"  style="width: 200px; margin-left: 200px; background: blue;color: white; border: none;border-radius: 10px;">
+                      </div>
+                      </div>
+                      </form>
+</div>
+</div>
+</section>
+</body>
+</html>
